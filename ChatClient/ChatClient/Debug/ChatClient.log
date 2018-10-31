@@ -1,0 +1,46 @@
+﻿生成启动时间为 2018/10/11 20:29:37。
+     1>项目“E:\项目\聊天室项目\林徐丰\ChatClient\ChatClient\ChatClient.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ChatClient.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ChatClient.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CDlgChatMain.cpp CDlgOne20ne.cpp ChatClient.cpp ChatClientDlg.cpp ClientSocket.cpp DlgRecord.cpp DlgSearch.cpp
+         DlgSearch.cpp
+         DlgRecord.cpp
+     1>e:\项目\聊天室项目\林徐丰\chatclient\chatclient\clientsocket.h(137): warning C4351: 新增行为:  默认情况下初始化数组“CClientSocket::m_szName”的元素
+     1>e:\项目\聊天室项目\林徐丰\chatclient\chatclient\clientsocket.h(141): warning C4351: 新增行为:  默认情况下初始化数组“CClientSocket::m_bufRecv”的元素
+         ClientSocket.cpp
+     1>e:\项目\聊天室项目\林徐丰\chatclient\chatclient\clientsocket.h(137): warning C4351: 新增行为:  默认情况下初始化数组“CClientSocket::m_szName”的元素
+     1>e:\项目\聊天室项目\林徐丰\chatclient\chatclient\clientsocket.h(141): warning C4351: 新增行为:  默认情况下初始化数组“CClientSocket::m_bufRecv”的元素
+     1>e:\项目\聊天室项目\林徐丰\chatclient\chatclient\clientsocket.cpp(198): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\项目\聊天室项目\林徐丰\chatclient\chatclient\clientsocket.cpp(207): warning C4018: “<”: 有符号/无符号不匹配
+         ChatClientDlg.cpp
+     1>e:\项目\聊天室项目\林徐丰\chatclient\chatclient\clientsocket.h(137): warning C4351: 新增行为:  默认情况下初始化数组“CClientSocket::m_szName”的元素
+     1>e:\项目\聊天室项目\林徐丰\chatclient\chatclient\clientsocket.h(141): warning C4351: 新增行为:  默认情况下初始化数组“CClientSocket::m_bufRecv”的元素
+         ChatClient.cpp
+     1>e:\项目\聊天室项目\林徐丰\chatclient\chatclient\clientsocket.h(137): warning C4351: 新增行为:  默认情况下初始化数组“CClientSocket::m_szName”的元素
+     1>e:\项目\聊天室项目\林徐丰\chatclient\chatclient\clientsocket.h(141): warning C4351: 新增行为:  默认情况下初始化数组“CClientSocket::m_bufRecv”的元素
+         CDlgOne20ne.cpp
+     1>e:\项目\聊天室项目\林徐丰\chatclient\chatclient\clientsocket.h(137): warning C4351: 新增行为:  默认情况下初始化数组“CClientSocket::m_szName”的元素
+     1>e:\项目\聊天室项目\林徐丰\chatclient\chatclient\clientsocket.h(141): warning C4351: 新增行为:  默认情况下初始化数组“CClientSocket::m_bufRecv”的元素
+         CDlgChatMain.cpp
+     1>e:\项目\聊天室项目\林徐丰\chatclient\chatclient\clientsocket.h(137): warning C4351: 新增行为:  默认情况下初始化数组“CClientSocket::m_szName”的元素
+     1>e:\项目\聊天室项目\林徐丰\chatclient\chatclient\clientsocket.h(141): warning C4351: 新增行为:  默认情况下初始化数组“CClientSocket::m_bufRecv”的元素
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\ChatClient.res" ChatClient.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\项目\聊天室项目\林徐丰\ChatClient\Debug\ChatClient.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\项目\聊天室项目\林徐丰\ChatClient\Debug\ChatClient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\项目\聊天室项目\林徐丰\ChatClient\Debug\ChatClient.lib" /MACHINE:X86 Debug\ChatClient.res
+         Debug\CDlgChatMain.obj
+         Debug\CDlgOne20ne.obj
+         Debug\ChatClient.obj
+         Debug\ChatClientDlg.obj
+         Debug\ClientSocket.obj
+         Debug\DlgRecord.obj
+         Debug\DlgSearch.obj
+         Debug\stdafx.obj
+         ChatClient.vcxproj -> E:\项目\聊天室项目\林徐丰\ChatClient\Debug\ChatClient.exe
+     1>已完成生成项目“E:\项目\聊天室项目\林徐丰\ChatClient\ChatClient\ChatClient.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.98
